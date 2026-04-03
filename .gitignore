@@ -317,8 +317,6 @@ python/llm-service/__pycache__/
 
 # Deployment artifacts
 deploy/k8s/secrets/
-deploy/terraform/.terraform/
-deploy/terraform/*.tfstate*
 
 # MCP configuration files
 .mcp.json
@@ -352,14 +350,6 @@ chrome-extension/
 # antigravity
 .agent/
 
-# Terraform - infra directory
-infra/terraform/**/.terraform/
-infra/terraform/**/*.tfstate
-infra/terraform/**/*.tfstate.*
-infra/terraform/**/*.tfvars
-!infra/terraform/**/.terraform.lock.hcl
-infra/terraform/**/tfplan
-infra/terraform/**/terraform-outputs.json
 
 # Skills - exclude user and vendor-specific skills
 config/skills/user/
